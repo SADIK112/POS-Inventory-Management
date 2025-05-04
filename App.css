@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "SF Pro Text Bold";
+  src: url("./assets/SF-Pro-Text-Bold.woff");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "SF Pro Text Regular";
+  src: url("./assets/SF-Pro-Text-Regular.woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "SF Pro Text Medium";
+  src: url("./assets/SF-Pro-Text-Medium.woff");
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: "SF Pro Text Light";
+  src: url("./assets/SF-Pro-Text-Light.woff");
+  font-weight: light;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff !important;
+  font-size: 16px !important;
+  background: rgba(16, 24, 39, 1) !important;
+  font-family: "SF Pro Text Regular" !important;
+}
+
+button {
+  cursor: pointer;
+}
+
+.spinner {
+  animation: spin 2s linear infinite;
+  transform-origin: 67px 67.5px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
